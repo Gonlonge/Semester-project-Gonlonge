@@ -49,22 +49,21 @@
         class="responsive-upper-img"
       />
     </div>
-    
+
     <section class="Flex-wrapper main-container top-space">
-      
-        <div>
-          <h2>Buy Tickets</h2>
-          <p>Adult 150 kr</p>
-          <input class="field-style" type="number" />
-          <p>Children (under16) 75 kr</p>
-          <input class="field-style" type="number" />
-          <p>Children under 5 free</p>
-          <input class="field-style" type="number" />
-        </div>
+      <div>
+        <h2>Buy Tickets</h2>
+        <p>Adult 150 kr</p>
+        <input class="field-style" type="number" />
+        <p>Children (under16) 75 kr</p>
+        <input class="field-style" type="number" />
+        <p>Children under 5 free</p>
+        <input class="field-style" type="number" />
+      </div>
       <div class="left-space">
         <h2>Your details</h2>
         <div class="input-space">
-          <label for="name"></label>
+          <label for="fname"></label>
           <input
             class="field-style"
             type="text"
@@ -74,7 +73,7 @@
           />
         </div>
         <div class="input-space">
-          <label for="last name"></label>
+          <label for="lname"> </label>
           <input
             class="field-style"
             type="text"
@@ -103,8 +102,6 @@
             placeholder="postcode"
           />
         </div>
-   
-       
         <div class="input-space">
           <label for="city"></label>
           <input
@@ -125,55 +122,53 @@
             placeholder="address"
           />
         </div>
-   </section>
-   <section class="main-container top-space">
-      <h2>Payment details</h2>
-      <div class="input-space ">
-        
-        <input
-          class="field-style field-style-desktop"
-          type="text"
-          id="cname"
-          name="cardname"
-          placeholder="Card owner name"
-        />
       </div>
-      <div class="input-space">
-      
-        <input
-          class="field-style field-style-desktop"
-          type="text"
-          id="cardnumber"
-          name="cardnumber"
-          placeholder="0000-0000-0000-0000"
-        />
-      </div>
-      <div class="input-space">
-        <input
-          class="field-style "
-          type="text"
-          id="expire month day year"
-          name="expire month day year"
-          placeholder="MM / DD / YYYY"
-        />
-      </div>
-        <div class="input-space">
-        <input
-          class="field-style"
-          type="text"
-          id="cvv"
-          name="cvv"
-          placeholder="000"
-        />
-     
-      </div>
-   
     </section>
     <section class="main-container top-space">
-
-    
       <div>
-        <input class="checkbox-style" type="checkbox" check="check" />
+        <h2>Payment details</h2>
+        <div class="input-space">
+          <input
+            class="field-style field-style-desktop"
+            type="text"
+            id="cname"
+            name="cardname"
+            placeholder="Card owner name"
+          />
+        </div>
+        <div class="input-space">
+          <input
+            class="field-style field-style-desktop"
+            type="text"
+            id="cardnumber"
+            name="cardnumber"
+            placeholder="0000-0000-0000-0000"
+          />
+        </div>
+        <div class="input-space">
+          <input
+            class="field-style"
+            type="text"
+            id="date"
+            name="expire month day year"
+            placeholder="MM / DD / YYYY"
+          />
+        </div>
+        <div class="input-space">
+          <input
+            class="field-style"
+            type="text"
+            id="cvv"
+            name="cvv"
+            placeholder="000"
+          />
+        </div>
+      </div>
+    </section>
+    <div class="main-container top-space">
+      <div>
+        <input type="checkbox" id="checkbox" name="checkbox" value="check" />
+        <label for="checkbox"> </label>
         <span class="checkbox-style"
           >I confirm I have read and agree to the terms & conditions</span
         >
@@ -183,7 +178,7 @@
           <a class="ticket-button" href="order-complete.html">Buy Now</a>
         </p>
       </div>
-    </section>
+    </div>
     <footer class="footer-wrapper">
       <div class="main-container">
         <p>
@@ -203,4 +198,3 @@
     </footer>
   </body>
 </html>
-
