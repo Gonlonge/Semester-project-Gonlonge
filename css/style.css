@@ -38,11 +38,6 @@ p {
   padding: 0px 20px;
 }
 
-.header-container {
-  max-width: 1000px;
-  margin: 0px auto;
-}
-
 nav {
   display: none;
   position: fixed;
