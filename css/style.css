@@ -8,7 +8,8 @@ h2 {
   font-family: "lora", Verdana, Geneva, Tahoma, sans-serif;
 }
 
-p {
+p,
+a {
   font-family: "roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -147,10 +148,11 @@ body {
   display: inline-block;
   background-color: #1ac174;
   margin-top: 50px;
-  padding: 40px 57px;
+  padding: 35px 65px;
   border-radius: 3px;
   transition-duration: 0.3s;
   cursor: pointer;
+  font-size: 25px;
 }
 
 .ticket-button:hover {
@@ -183,16 +185,6 @@ body {
 }
 
 /* footer */
-
-.footer-wrapper {
-  margin: 180px 0px 30px 0px;
-  font-size: 13px;
-}
-
-.footer-position {
-  display: block;
-  text-align: right;
-}
 
 /*sceen devices*/
 
@@ -235,7 +227,49 @@ body {
   }
 }
 
+@media (max-width: 800px) {
+  .header-desktop {
+    display: none;
+  }
+
+  .header-mobile {
+    display: flex;
+  }
+}
+
 @media (min-width: 800px) {
+  .header-desktop {
+    display: flex;
+  }
+
+  .header-mobile {
+    display: none;
+  }
+
+  .topnav {
+    margin-top: 50px;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .desktop-button:hover {
+    color: rgb(192, 192, 192);
+  }
+
+  .header-block {
+    width: 200px;
+  }
+
+  .logo-space {
+    margin-top: 26px;
+    text-align: right;
+  }
+
+  .topnav a {
+    color: black;
+    margin-right: 26px;
+  }
+
   .featured {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -251,6 +285,7 @@ body {
   .Flex-wrapper {
     display: flex;
     flex-direction: row;
+
     max-width: 1000px;
     margin: 0px auto;
     padding: 0px 20px;
@@ -291,6 +326,7 @@ body {
     grid-template-columns: 2fr 1fr;
   }
 }
+
 /* fun site */
 
 @media screen and (min-width: 400px) and (max-width: 410px),

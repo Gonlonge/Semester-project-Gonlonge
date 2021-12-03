@@ -23,23 +23,44 @@
   </head>
   <body>
     <header>
-      <section class="header-menu main-container">
+      <section class="header-desktop header-menu main-container">
+        <a href="index.html" class="a-color">
+          <h1 class="header-block">
+            Science Museum of <span class="logo-text">Norway</span>
+          </h1>
+        </a>
+        <div class="topnav">
+          <a href="index.html" class="desktop-button">Home</a>
+          <a href="visit.html" class="desktop-button">Visit</a>
+          <a class="im-here" href="fun.html">Fun</a>
+          <a href="learn.html" class="desktop-button">Learn</a>
+          <a href="buy-tickets.html" class="desktop-button">Tickets</a>
+        </div>
+        <div class="header-block">
+          <div class="logo-space">
+            <a href="index.html">
+              <img src="images/icon.svg" alt="logo of the museum" />
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="header-mobile header-menu main-container">
         <div class="logo-space">
           <a href="index.html">
             <img src="images/icon.svg" alt="logo of the museum" />
           </a>
         </div>
+        <div></div>
         <h1 class="logo-text-space">
           Science Museum of <span class="logo-text">Norway</span>
         </h1>
-
         <label for="hamburger-menu"><i class="fas fa-bars fa-2x"></i></label>
         <input type="checkbox" id="hamburger-menu" />
         <nav>
           <ul>
-            <li><a href="index.html">Home</a></li>
+            <li class="im-here"><a href="index.html">Home</a></li>
             <li><a href="visit.html">Visit</a></li>
-            <li class="im-here"><a href="fun.html">Fun</a></li>
+            <li><a href="fun.html">Fun</a></li>
             <li><a href="learn.html">Learn</a></li>
             <li><a href="buy-tickets.html">Tickets</a></li>
           </ul>
@@ -90,8 +111,8 @@
         <h2>Robotics and AI</h2>
         <p>
           Revolution is here robotics and artificial intelligence are the
-          science of the future. You can even say hello and shake the hand of
-          Rob the Robot.
+          science of the future. You can even say hello and shake hands with a
+          Robot.
         </p>
       </div>
     </section>
@@ -123,21 +144,16 @@
         message.
       </p>
     </section>
-    <footer class="footer-wrapper">
-      <div class="main-container">
-        <p>
-          Monday - Friday:10:00 - 16:00<span class="footer-position"
-            >Contact Us</span
-          >
-        </p>
-        <p>
-          Saturday: 09:00 - 16:00
-          <span class="footer-position">Info@Iourm.rom</span>
-        </p>
-        <p>
-          Sunday: Closed
-          <span class="footer-position">Stavanger 4082 Priemo Nr 27</span>
-        </p>
+    <footer>
+      <div class="main-container top-space order-text">
+        <p>Monday – Friday: 09:00 - 16:00</p>
+        <p>Saturday: 09:30 - 16:00</p>
+        <p>Sunday: Closed</p>
+      </div>
+      <div class="main-container top-space order-text">
+        <p>Contact Us</p>
+        <p>info@iourm.rom</p>
+        <p>Stavanger 4092 Eigum gete 14</p>
       </div>
     </footer>
   </body>
