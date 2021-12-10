@@ -135,6 +135,7 @@ body {
   transition: 0.1s;
   outline: none;
 }
+
 .field-style:focus {
   border: 2px solid #dadada;
 }
@@ -285,15 +286,6 @@ body {
 
   .left-space {
     margin-left: 180px;
-  }
-
-  .field-style-desktop {
-    padding: 7px 105px;
-    display: inline-block;
-    border: 1px solid #dbdbdb;
-    border-radius: 3px;
-    transition: 0.1s;
-    outline: none;
   }
 
   .img-wrapper {
