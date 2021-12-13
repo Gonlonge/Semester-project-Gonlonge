@@ -275,7 +275,6 @@ body {
   .featured {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 60px;
   }
 
   .featured-grid {
@@ -296,8 +295,6 @@ body {
 
   .responsive-upper-img {
     margin-top: 10px;
-    width: 100%;
-    height: auto;
   }
 
   .top-space {
