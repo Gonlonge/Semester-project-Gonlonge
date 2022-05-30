@@ -28,9 +28,20 @@ Trello Board
 https://github.com/Gonlonge/Semester-project-Gonlonge.git
 ```
 
+```
+https://www.linkedin.com/in/gonzalo-longe-711237191/
+```
+
+```portfolio coming soon```
+
 ## Test the home page
 
-The website is responsive and works at every screen size.
-The payment section you can add games.
-Fill out the inputs on contact page
+The website how the responsive works in each screen device.
+Press the buttons.
+View the design overall.
+
+
+## Pictures
+
+Free pictures
 
