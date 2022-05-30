@@ -24,8 +24,8 @@ Trello Board
 
 ## Clone the repo
 
-```bash
-https://github.com/Noroff-FEU-Assignments/cross-course-project-Gonlonge.git
+```
+https://github.com/Gonlonge/Semester-project-Gonlonge.git
 ```
 
 ## Test the home page
