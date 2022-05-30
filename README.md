@@ -1,4 +1,4 @@
-# Semester-project-Gonlonge
+# Semester Project Gonlonge
 
 
 College: Noroff - Frondend developer
