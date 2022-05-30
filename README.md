@@ -4,6 +4,7 @@
 College: Noroff - Frondend developer
 Date: 12.2021
 
+![museum-frontpage](https://user-images.githubusercontent.com/89197537/170968008-005fa5bd-38cf-4afa-8a4f-6fef7ddf1124.png)
 
 ## Brief
 This semester projeckt was about to create a Science Museum. that target audience for primary and middle school children (7-15) and families with young children. It have to be appealing, that will attract both middle school pupils and their parents.
